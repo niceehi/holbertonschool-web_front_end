@@ -1,0 +1,24 @@
+/* Body text color */
+body {
+  color: #161616;
+}
+
+/* Links */
+a {
+  color: #161616;
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category text */
+.card-category {
+  color: #D73953;
+}
+
+/* Section tagline text */
+.section-tagline {
+  color: #D73953;
+}
