@@ -1,4 +1,4 @@
-/* ROOT variables */
+/* Root variables */
 :root {
   --color-primary: #d73953;
   --color-black: #090909;
@@ -7,16 +7,37 @@
   --color-dark-grey: #353535;
 
   --text-color: var(--color-black);
+
+  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --font-size-small: 1.2rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 1.8rem;
+  --font-size-x-large: 2.3rem;
+  --font-size-xx-large: 4.8rem;
+}
+
+/* HTML */
+html {
+  font-size: 62.5%;
 }
 
 /* Body */
 body {
   color: var(--text-color);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-medium);
 }
 
 /* Links */
 a {
   color: var(--text-color);
+}
+
+/* Hidden elements */
+.visually-hidden {
+  display: none;
 }
 
 /* Card category */
@@ -28,34 +49,8 @@ a {
 .section-tagline {
   color: var(--color-primary);
 }
-/* Root variables */
-:root {
-  --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
-/* Body */
-body {
-  font-family: var(--font-family-base);
-}
-
-/* All headings */
+/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family-title);
-}
-
-:root {
-  --font-size-small: 1.2rem;
-  --font-size-medium: 1.6rem;
-  --font-size-large: 1.8rem;
-  --font-size-x-large: 2.3rem;
-  --font-size-xx-large: 4.8rem;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: var(--font-size-medium);
 }
